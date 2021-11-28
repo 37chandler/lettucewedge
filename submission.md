@@ -89,3 +89,21 @@ When calculating relative difference, use the formula
 I think overall, the Wedge project had many learning curves. I initially was planning on clean the raw Wedge files. But I ended up spending too much time on it, and when trying to upload csvs that I had clean, I ran into many errors. Eventually, I decided that I would just upload the clean Wedge files. I ran into several errors here though. Namely, that my query load jobs were constantly timing out. To no avail, I found a second way of uploading the files. I first uploaded all files to Google Cloud Storage, which had some troubleshooting but eventually worked. Then when I finally tried to programmatically upload a large csv, it worked in a matter of seconds! Another tricky aspect was getting my queries to interopolate with GBQ correctly. There was some struggle here. 
 
 For Task 2, the majority of the coding was easy. However, extract owner records based on the sample I created took so many hours of trial and error. I almost gave up. Then I found 12 characters of code, and it worked. So that was a happy ending. I understand why it didn't work (sorta) but it was never apparent to me the entire time. I got so many errors, each different. Task 3 was very stragihtforward. 
+
+## Feedback
+
+I'll give you feedback on your code, but before I do I'm concerned about the discrepancy between our results. I'm not
+going to ask you to correct it, but I *would* like you to diagnose it. 
+
+1. Write a query that returns the number of rows per year and month for your full data set. 
+2. Do the same for mine.
+3. Plot the two counts over time on the same graph. I'm guessing you uploaded a file or two twice, but I'd like to find out. 
+4. Send me that plot on Teams and consider this complete.
+
+For task 1, this is a fun/challenging way to do it. I don't see any obvious issues. 
+
+On task 2, there's definitely some clean-up that could have happened on this file, but your code looks good. Creative use of "format" on that query. I'm shocked
+that works, but I'm impressed. 
+
+Good job taking a "path of least resistance" approach to Task 3. I can imagine some more elegant ways to do it (and I've added you to the
+solutions so that you can see my version), but this got the job done. Nice work. 
